@@ -1,4 +1,4 @@
-package algorithm.section1;
+package algorithm.section1_string;
 
 import static java.lang.Character.isAlphabetic;
 

@@ -1,4 +1,4 @@
-package algorithm.section1;
+package algorithm.section1_string;
 
 import java.util.Arrays;
 import java.util.Scanner;

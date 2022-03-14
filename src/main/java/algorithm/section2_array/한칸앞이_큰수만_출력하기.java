@@ -1,4 +1,4 @@
-package algorithm.section1;
+package algorithm.section2_array;
 
 import java.util.ArrayList;
 import java.util.List;

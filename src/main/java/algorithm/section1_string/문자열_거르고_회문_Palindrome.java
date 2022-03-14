@@ -1,14 +1,19 @@
-package algorithm.section1;
+package algorithm.section1_string;
 
 import java.util.Scanner;
 
-public final class 회문_문자열_확인 {
+/**
+ * 정규표현식 [^ ] 을 쓰면, 해당 문자가 아닌 것을 찾아낼 수 있다.
+ */
+public final class 문자열_거르고_회문_Palindrome {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.next();
+        String input = scanner.nextLine();
 
-        char[] word = input.toUpperCase().toCharArray();
+        String alphaInput = input.replaceAll("[^a-zA-Z]", "");
+
+        char[] word = alphaInput.toUpperCase().toCharArray();
 
         int left = 0;
         int right = word.length - 1;
@@ -20,6 +25,7 @@ public final class 회문_문자열_확인 {
             left++;
             right--;
         }
+
         System.out.println("YES");
     }
 
