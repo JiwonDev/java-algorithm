@@ -1,4 +1,4 @@
-package algorithm.section3_two_pointer;
+package algorithm.section4_hash_and_set;
 
 import java.util.ArrayList;
 import java.util.Collections;
