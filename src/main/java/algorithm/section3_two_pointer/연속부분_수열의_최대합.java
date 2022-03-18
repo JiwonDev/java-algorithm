@@ -2,7 +2,7 @@ package algorithm.section3_two_pointer;
 
 import java.util.Scanner;
 
-public final class 연속부분_수열의_최대합 {
+ class 연속부분_수열의_최대합 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,6 +15,7 @@ public final class 연속부분_수열의_최대합 {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
+
 
         int max = 0, sum = 0;
         int lt = 0, rt = 0;
@@ -37,5 +38,6 @@ public final class 연속부분_수열의_최대합 {
         }
 
         System.out.println(max + k);
+        N
     }
 }

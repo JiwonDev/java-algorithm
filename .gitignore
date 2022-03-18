@@ -2,5 +2,4 @@
 /out/**
 /gradle/**
 /read/**
-/.idea/git_toolbox_prj.xml
-/.idea/vcs.xml
+/.idea/**
