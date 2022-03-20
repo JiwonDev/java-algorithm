@@ -25,7 +25,6 @@ public final class 간단한_피보나치수열 {
             sb.append(fibo[i]).append(" ");
         }
 
-        sb.deleteCharAt(sb.length() - 1);
         System.out.println(sb);
     }
 }

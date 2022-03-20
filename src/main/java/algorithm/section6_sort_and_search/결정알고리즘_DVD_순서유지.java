@@ -7,10 +7,10 @@ import java.util.Scanner;
  * 결정 알고리즘, target을 확인한 후 min = target-1, max = target+1로 범위를 좁힌다.
  * 순서 정렬해도 되는지 확인 꼭 해보기!!
  */
-class DVD_결정알고리즘_순서유지 {
+class 결정알고리즘_DVD_순서유지 {
 
     public static void main(String[] args) {
-        DVD_결정알고리즘_순서유지 T = new DVD_결정알고리즘_순서유지();
+        결정알고리즘_DVD_순서유지 T = new 결정알고리즘_DVD_순서유지();
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int m = scanner.nextInt();
